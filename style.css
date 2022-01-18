@@ -11,7 +11,7 @@ body {
 }
 
 .card {
-    background: #fafafad0;
+    background: #035162d0;
     color: #daa520;
     padding: 2em;
     border-radius: 30px;
@@ -33,14 +33,14 @@ button {
     height: 44px;
     width: 44px;
     outline: none;
-    background: #E0FFFF;
+    background: #C38A77;
     color: white;
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
 
 button:hover {
-    background: #FFC1C1;
+    background: #B2AC88;
 }
 
 input.search-bar {
@@ -70,4 +70,17 @@ hi.temp {
     margin-left: 8px;
 }
 
-.icon {}
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
