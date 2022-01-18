@@ -1,1 +1,1 @@
-#  ReactJS weather app using the Weather API
+#  Weather app using the Weather API
