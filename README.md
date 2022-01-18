@@ -1,1 +1,1 @@
-# Smooth Loading Transitions with Framer Motion
+#  ReactJS weather app using the Weather API
