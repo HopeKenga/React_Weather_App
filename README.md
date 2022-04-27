@@ -1,7 +1,7 @@
-#  Weather app using the OpenWeatherMap API
+#  Weather app 
 
 ```
-Fetches weather according to geographical location and returns it in unit metrics
+Fetches weather metrics using the Open Weather Map API according to geographical location and returns it in unit metrics to the most acccurate value.
 
 ```
 ![GIF](https://github.com/HopeKenga/Weather_App/blob/main/Tuscany.PNG)
